@@ -1,0 +1,53 @@
+.pricing {
+    margin-bottom: 180px;
+}
+
+.pricing__heading {
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.pricing-item__heading {
+    margin-bottom: 0;
+}
+
+.pricing-item__description {
+    margin-top: 19px;
+    min-height: 100px;
+}
+
+.pricing-item__img {
+    height: 250px;
+}
+
+.pricing-item__button {
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 7px 20px;
+    border: none;
+}
+
+.pricing-item__button_font-small {
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 5px;
+    color: #546269;
+}

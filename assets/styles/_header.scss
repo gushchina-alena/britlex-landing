@@ -1,11 +1,11 @@
-.header-nav {
+.nav {
     padding-top: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-a {
+.nav a {
     color: #263238;
     text-decoration: none;
     padding-right: 20px;
@@ -14,7 +14,7 @@ a {
     font-size: 20px;
 }
 
-.header-nav__button {
+.nav__button {
     font-size: 24px;
     font-weight: 400;
     padding: 17px 57px;

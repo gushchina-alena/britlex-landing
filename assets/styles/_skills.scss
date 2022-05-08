@@ -1,23 +1,22 @@
 .skills {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 
     h2 {
-        font-size: 48px;
         text-align: center;
     }
 }
 
 .skills-cards {
     display: grid;
-    grid-template-areas: "card-one card-two card-three"
-                        "card-one card-four card-four";
+    grid-template-areas: "card_long-vertical card_standard_left card_standard_right"
+                        "card_long-vertical card_long-horizontal card_long-horizontal";
     grid-gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.skills-card {
+.card {
     background-color: #F5F5F5;
     border-radius: 10px;
     display: flex;
@@ -26,8 +25,8 @@
     justify-content: center;
 }
 
-.card-one {
-    grid-area: card-one;
+.card_long-vertical {
+    grid-area: card_long-vertical;
     width: 435px;
     height: 100%;
 
@@ -36,23 +35,23 @@
     }
 }
 
-.card-two {
+.card_standard_left {
+    grid-area: card_standard_left;
     width: 434px;
     height: 532px;
-    grid-area: card-two;
 
     img {
-        width: 293x;
+        width: 293px;
         height: 293px;
         align-self: flex-end;
         height: 50%;
     }
 }
 
-.card-three {
+.card_standard_right {
+    grid-area: card_standard_right;
     width: 434px;
     height: 532px;
-    grid-area: card-three;
 
     img {
         height: 305px;
@@ -60,10 +59,10 @@
     }
 }
 
-.card-four {
+.card_long-horizontal {
+    grid-area: card_long-horizontal;
     width: 887px;
     height: 343px;
-    grid-area: card-four;
     flex-direction: row;
 
     img {
@@ -71,17 +70,14 @@
     }
 }
 
-
-.skills-card__button {
+.card__button {
     font-weight: 500;
-    color: #fff;
-    background-color: #263238;
     border-radius: 5px;
     padding: 17px 64px;
     margin-top: 30px;
 }
 
-.skills-card__heading {
+.card__heading {
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 5px;
@@ -89,14 +85,13 @@
     margin: 0;
 }
 
-.skills-card__description {
+.card__description {
     font-size: 16px;
     line-height: 24px;
     width: 90%;
-    color: #8F95A5;
 }
 
-.skills-card__text {
+.card__text {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;

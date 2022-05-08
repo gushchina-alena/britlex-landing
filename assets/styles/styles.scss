@@ -9,6 +9,37 @@ body {
     margin-right: 8%;
 }
 
+.text-img-block {
+    display: flex;
+}
+
+.block-title {
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #000;
+}
+
+.block-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.block-paragraph {
+    color: #8F95A5;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.primary-btn {
+    color: #fff;
+    background-color: #263238;
+}
+
 @import "header";
 @import "welcome-screen";
 @import "skills";
+@import "about";
+@import "pricing";
+@import "contact";
+@import "footer";

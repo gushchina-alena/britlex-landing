@@ -1,0 +1,48 @@
+.about {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.about__text {
+    width: 50%;
+}
+
+.about__heading {
+    margin-bottom: 26px;
+}
+
+.about__description {
+    color: #8F95A5;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about__clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients__item__number {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2A3246;
+}
+
+.clients__item__category {
+    color: #8F95A5;
+    margin-top: 0;
+}
+
+.about__img {
+    margin-top: 25px;
+}

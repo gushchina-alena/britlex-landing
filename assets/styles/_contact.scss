@@ -1,0 +1,32 @@
+.contact {
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.contact__text {
+    width: 50%;
+}
+
+.contact__title {
+    margin-bottom: 35px;
+}
+
+.contact__description {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.form__input {
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 33px;
+    margin-right: 12px;
+}
+
+.form__btn {
+    padding: 25px 81px;
+    font-size: 20px;
+    border-radius: 10px;
+}
