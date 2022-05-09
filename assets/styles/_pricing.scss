@@ -45,6 +45,12 @@
     border: none;
 }
 
+.pricing-item__button:hover {
+    cursor: pointer;
+    border: 2px solid #3f6087;
+    transition-delay: 0.2s;
+}
+
 .pricing-item__button_font-small {
     font-size: 18px;
     line-height: 27px;

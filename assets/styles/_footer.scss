@@ -14,5 +14,10 @@
     color: #8F95A5;
     font-size: 24px;
     line-height: 36px;
-    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.footer__link:hover {
+    border-bottom: 3px solid #8F95A5;
+    transition-delay: 0.2s;
 }
