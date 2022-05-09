@@ -43,11 +43,9 @@ body {
 
 .primary-btn:hover {
   cursor: pointer;
-  background: #dfbecd;
-  background: radial-gradient(circle, #dfbecd 0%, #3f6087 100%);
-  -webkit-transition-delay: 0.3s;
-          transition-delay: 0.3s;
-  border: 0;
+  background-color: #eee;
+  color: #000;
+  border: 2px solid #263238;
 }
 
 .nav {
@@ -88,11 +86,9 @@ body {
 
 .nav__button:hover {
   cursor: pointer;
-  background: #dfbecd;
-  background: radial-gradient(circle, #dfbecd 0%, #3f6087 100%);
+  background-color: #263238;
+  color: #fff;
   border: 0;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
 }
 
 .welcome-screen {
@@ -411,8 +407,6 @@ body {
 .pricing-item__button:hover {
   cursor: pointer;
   border: 2px solid #3f6087;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
 }
 
 .pricing-item__button_font-small {

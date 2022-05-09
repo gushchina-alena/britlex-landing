@@ -42,11 +42,9 @@ body {
 
 .primary-btn:hover {
     cursor: pointer;
-    background: rgb(223,190,205);
-    background: radial-gradient(circle, rgba(223,190,205,1) 0%, rgba(63,96,135,1) 100%);
-    transition-delay: 0.3s;
-    // color: #000;
-    border: 0;
+    background-color: #eee;
+    color: #000;
+    border: 2px solid #263238;
 }
 
 @import "header";
