@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <title>Britlex</title>
@@ -14,14 +14,20 @@
                 <nav class="nav__logo">
                     <img src="./assets/images/logo.svg">
                 </nav>
-                <div class="nav__menu">
-                    <a href="#">Home</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#about">About Us</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#contacts">Contacts</a>
+                <div class="nav__menu-body">
+                    <div class="nav__menu">
+                        <a class="nav__link" data-goto=".welcome-screen" href="#">Home</a>
+                        <a class="nav__link" data-goto=".skills" href="#">Skills</a>
+                        <a class="nav__link" data-goto=".about" href="#">About Us</a>
+                        <a class="nav__link" data-goto=".pricing" href="#">Pricing</a>
+                        <a class="nav__link" data-goto=".contact" href="#">Contacts</a>
+                    </div>
                 </div>
                 <button class="nav__button">Let’s Talk</button>
+                <div class="nav__burger">
+                    <img class="burger" src="./assets/images/burger.png" alt="">
+                    <img class="close-burger" src="./assets/images/close.png">
+                </div>
             </header>
             <main>
                 <div class="welcome-screen text-img-block">
@@ -154,5 +160,6 @@
                 </div>
             </footer>
     </div>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>

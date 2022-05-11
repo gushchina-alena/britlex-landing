@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
+// html {
+//     scroll-behavior: smooth;
+// }
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+body._lock {
+    overflow: hidden;
 }
 
 .website-container {
@@ -54,11 +58,5 @@ body {
 @import "pricing";
 @import "contact";
 @import "footer";
+@import "media";
 
-@media all and (max-width: 1460px) {
-    .website-container {
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    
-}
