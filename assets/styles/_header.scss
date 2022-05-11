@@ -5,13 +5,21 @@
     align-items: center;
 }
 
-.nav a {
+.nav__link {
     color: #263238;
     text-decoration: none;
     margin-right: 20px;
     margin-left: 20px;
     font-weight: 500;
     font-size: 20px;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
 }
 
 .nav a:hover {

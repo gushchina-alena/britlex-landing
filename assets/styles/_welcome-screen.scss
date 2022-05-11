@@ -27,23 +27,4 @@
     margin-top: 30px;
 }
 
-@media all and (max-width: 1460px) {
-    .welcome-screen__button {
-        font-size: 18px;
-        padding: 19px 67px;
-    }
 
-    .welcome-screen__heading h1 {
-        font-size: 55px;
-    }
-
-    .welcome-screen__description {
-        font-size: 20px;
-    }
-}
-
-@media all and (max-width: 1250px) {
-    .welcome-screen__heading h1 {
-        font-size: 44px;
-    }
-}
