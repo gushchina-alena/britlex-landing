@@ -5,5 +5,6 @@ Britlex landing page (in progress):
 - Flexbox
 - Media Queries
 - BEM
+- Javascript
 
 ![image](https://user-images.githubusercontent.com/77553973/167275987-f5144c07-d8bc-45a6-9838-a54600295768.png)
